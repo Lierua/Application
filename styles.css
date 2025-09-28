@@ -103,8 +103,9 @@ body {
     border-bottom: 1px solid var(--second-col);
   }
     .main .p {
-    width: 500px;
-    margin: 0 auto;
+    width: 625px;
+  margin: 0 auto;
+  text-align: center;
 }
 * {
   margin: 0;
