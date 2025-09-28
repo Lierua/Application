@@ -39,12 +39,12 @@ body {
     font-family: "Red Hat Display", sans-serif;
     font-weight: 300;
     letter-spacing: 7px;
-    font-size: 360%;
+    font-size: 270%;
   }
   .intro {
-    width: 1070px;
+    width: 970px;
     margin: 0 auto;
-    height: 950px;
+    height: 900px;
     margin-top: 20px;
   }
 
@@ -62,7 +62,7 @@ body {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 22px;
-    font-size: 398%;
+    font-size: 300%;
     margin-left: 2rem;
   }
 
@@ -94,12 +94,31 @@ body {
     margin-top: 4rem;
     width: 80%;
   }
-  .main h1 {
+  .main h1 { 
     text-align: center;
-    border-bottom: 1px solid var(--second-col);
     padding: 2rem;
     margin: 0 auto;
   }
+  .main .border {
+    border-bottom: 1px solid var(--second-col);
+  }
+    .main .p {
+    width: 500px;
+    margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+[data-theme="Light"] {
+  --main-col: #CDC9BE;
+  --second-col: #383838;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  color: var(--second-col);
+}
   .cap2 {
     font-weight: 500;
   }
