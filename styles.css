@@ -94,7 +94,7 @@ footer {
   font-family: "Red Hat Display", sans-serif;
   margin: 0 auto;
   margin-top: 4rem;
-  width: 80%;
+  padding-inline: 1rem;
 }
 .main h1 {
   text-align: center;
@@ -169,6 +169,44 @@ body {
 }
 .pic-box.seven {
   grid-column: 1/3;
+}
+
+.fb {
+  .oneA {
+    grid-column: 3/5;
+    grid-row: span 3;
+  }
+  .twoA {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  .threeA {
+    grid-column: 1/3;
+    grid-row: span 1;
+  }
+  .sixA {
+    grid-column: 1/3;
+    grid-row: 3/4;
+  }
+  .sevenA {
+    grid-column: 3/5;
+    grid-row: 5/7;
+  }
+  .eightA {
+    grid-column: 1/3;
+    grid-row: 4/7;
+  }
+  .link {
+    width: fit-content;
+    margin: 1rem auto 0 auto;
+
+    a {
+      transition: color 0.3s ease;
+      &:hover {
+        color: var(--second-col);
+      }
+    }
+  }
 }
 
 .grid {
